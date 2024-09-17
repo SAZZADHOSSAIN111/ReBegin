@@ -10,4 +10,8 @@ switch statement - selects one of many blocks of code to be executed
 if (5>3){
     echo "this is great";
 }
+
+
+
+
 ?>
