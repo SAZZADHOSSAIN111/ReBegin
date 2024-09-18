@@ -11,7 +11,13 @@ if (5>3){
     echo "this is great";
 }
 
+echo "<br>";
 
+$x="5";
+
+if ($x>3){
+    echo "this is great";
+}
 
 
 ?>
