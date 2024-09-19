@@ -13,11 +13,33 @@ if (5>3){
 
 echo "<br>";
 
-$x="5";
+$x=8;
 
-if ($x>3){
+if ($x!=5){
     echo "this is great";
 }
+echo "<br>";
 
+$t= date("H");
 
+if($t<"12"){
+    echo "have a good Morning";
+}elseif($t>"20"){
+    echo "have a good day";
+    
+}else {
+    echo "have good night";
+}
+echo "<br>";
+
+$a = 13;                                 //this is a nested if
+
+if ($a > 10) {
+  echo "Above 10";
+  if ($a > 20) {
+    echo " and also above 20";
+  } else {
+    echo " but not above 20";
+  }
+}
 ?>
